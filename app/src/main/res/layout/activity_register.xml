@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/screen_color1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Farmsbook Register"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:id="@+id/phoneNumberLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/user"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/EmployName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:inputType="phone"
+            android:background="@drawable/edit_text_back"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/Phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Phone number"
+            android:inputType="phone"
+            android:background="@drawable/edit_text_back"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/phoneNumberEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            android:inputType="phone"
+            android:background="@drawable/edit_text_back"
+            android:textSize="20sp"/>
+
+
+
+        <Button
+            android:id="@+id/verifyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Register"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
